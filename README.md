@@ -1,6 +1,6 @@
-![Serverless Application Framework AWS Lambda API Gateway](img/serverless_readme_header.jpg)
+![Serverless Application Framework AWS Lambda API Gateway](img/serverless_framework_readme_large.gif)
 
-Serverless V0 (BETA) - Formerly "JAWS"
+Serverless Framework V0 (BETA)
 =================================
 
 ####The Serverless Application Framework Powered By Amazon Web Services - [serverless.com](http://www.serverless.com)

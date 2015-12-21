@@ -1,7 +1,7 @@
 {
   "functions": {
 
-    "simpleOne": {
+    "one": {
       "envVars": [],
       "custom": {
         "excludePatterns": []
@@ -38,7 +38,7 @@
       ]
     },
 
-    "simpleTwo": {
+    "two": {
       "envVars": [],
       "custom": {
         "excludePatterns": []
@@ -54,7 +54,10 @@
           "apiKeyRequired": false,
           "requestParameters": {},
           "requestTemplates": {
-            "application/json": "{\"access_token\":\"$input.params('access_token')\",\"body\":\"$input.json('$')\"}"
+            "application/json": {
+              "access_token": "$input.params('access_token')",
+              "body": "$input.json('$')"
+            }
           },
           "responses": {
             "default": {
@@ -73,7 +76,7 @@
       ]
     },
 
-    "simpleThree": {
+    "three": {
       "envVars": [],
       "custom": {
         "excludePatterns": []
